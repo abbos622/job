@@ -1,0 +1,19 @@
+.blog__wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    gap: 74px 0;
+}
+
+.blog__card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    p {
+        max-width: 325px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

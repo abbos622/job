@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --p-bg-info: #33CAFF;
+}
+
+.search {
+    border: none;
+    height: 50px;
+    background: #000;
+    outline: none;
+    width: 100vw;
+    font-weight: 400;
+    color: #FFF;
+    text-indent: 20px;
+}
+
+.search::placeholder {
+    color: #878787;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}

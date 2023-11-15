@@ -1,0 +1,17 @@
+.header__menu {
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-bottom: 12px;
+}
+
+.nav__link {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    &--active {
+        font-weight: 700;
+        color: var(--p-bg-info);
+    }
+}

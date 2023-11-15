@@ -1,0 +1,51 @@
+.home-men__baner {
+    padding: 50px 0;
+}
+
+.men-banner__card {
+    border-radius: 50px;
+    background: #EFF0F2;
+    display: flex;
+}
+
+.banner-img {
+    img {
+        height: 100%;
+        width: 288px;
+    }
+}
+
+.banner-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .banner__title {
+        max-width: 595px;
+        text-align: center;
+        word-break: break-all;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 139%;
+    }
+    .banner__text {
+        max-width: 726px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 139%;
+        letter-spacing: 0.4;
+        margin-top: 30px;
+    }
+    .banner__link {
+        max-width: 702px;
+        text-decoration-color: #33CAFF;
+        width: 100%;
+        text-align: right;
+        font-weight: 400;
+        color: #33CAFF;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
